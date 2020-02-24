@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150475018-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-150475018-1');
+    </script>
+    <script type="text/javascript">
+      (function(w, d, a){
+        w.__beusablerumclient__ = {
+          load : function(src){
+            var b = d.createElement("script");
+            b.src = src; b.async=true; b.type = "text/javascript";
+            d.getElementsByTagName("head")[0].appendChild(b);
+          }
+        };w.__beusablerumclient__.load(a);
+      })(window, document, '//rum.beusable.net/script/b190305e183506u693/504b7eefd4');
+      </script>
+    <meta charset="utf-8">
+    <title>스타트닥터</title>
+    
+    <meta name="author" content="스타트닥터">
+    <meta name="description" content="스타트닥터">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:image" content="../assets/ogimage.png">
+    <meta property="og:description" content="스타트닥터">
+    <meta property="og:title" content="스타트닥터">
+    <meta name="twitter:title" content="스타트닥터">
+
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/member.css">
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtqYpCJDxESmb5Vc2tHrp2vlYcMmo_tO4" async defer></script>
+  </head>
+  <body>
+    <section class="back_g_l">
+      <article id="member_area" class="col-12 col-md-6">
+        <div class="font_size_xl text_align_center font_weight_b">스타트닥터 회원가입</div>
+        <div class="container member_input_area padding_l box_shadow back_w margin_top_l">
+           <div class="row">
+            <div class="col-12">회원유형</div>
+            <div class="col-12 margin_top_s">
+
+              <div class="form-check display_inline_block">
+                <input class="form-check-input" type="radio" name="name" id="radio1" value="0" checked onchange="selectSignupType('doctor')">
+                <label class="form-check-label" for="radio1">
+                  의사
+                </label>
+              </div>
+              <div class="form-check display_inline_block margin_left_s">
+                <input class="form-check-input" type="radio" name="name" id="radio2" value="1" onchange="selectSignupType('company')">
+                <label class="form-check-label" for="radio2">
+                  기업
+                </label>
+              </div>
+
+            </div>
+          </div>
+
+          <form id="signup_form_01" method="POST" action="signup.php">
+            <div class="row">
+              <div class="col-12 margin_top_l">이메일</div>
+              <div class="col-12 margin_top_s">
+                <input type="email" name="u_email" placeholder="이메일 주소를 입력해주세요." required=""/>
+              </div>
+              <div class="col-12 margin_top_l">비밀번호</div>
+              <div class="col-12 margin_top_s">
+                <input type="password" name="u_pw" placeholder="비밀번호" required=""/>
+              </div>
+              <div class="col-12 margin_top_s">
+                <input type="password" name="u_pwc" placeholder="비밀번호 확인" required="" />
+              </div>
+               <div class="col-12 margin_top_l">이름</div>
+              <div class="col-12 margin_top_s">
+                <input type="text" name="u_name" placeholder="이름을 입력해주세요." required="" />
+              </div>
+              <div class="col-12 margin_top_l">전화번호</div>
+              <div class="col-12 margin_top_s position_relative">
+                <input type="text" name="u_phone" placeholder="연락처" required=""/>
+                <div class="button10 position_absolute" style="right: 25px; top: 15px">인증</div>
+              </div>
+              <div class="col-12 margin_top_l">생년월일</div>
+              <div class="col-4 input-group margin_top_s">
+                <select class="select_box custom-select year_area" name="year"> 
+                  <option selected>년</option>
+                </select>
+              </div>
+              <div class="col-4 input-group margin_top_s">
+                <select class="select_box custom-select month_area" name="month">
+                  <option selected>월</option>
+                </select>
+              </div>
+              <div class="col-4 input-group margin_top_s">
+                <select class="select_box custom-select day_area" name="day">
+                  <option selected>일</option>
+                </select>
+              </div>
+              <div class="col-12 margin_top_l">의사면허번호</div>
+              <div class="col-12 margin_top_s">
+                <input type="text" name="u_license" placeholder="의사인증을 위해 면허번호를 입력해주시길 바랍니다." required="" />
+              </div>
+              <div class="col-12" style="margin-top: 40px;padding: 0">
+                <div class="button" style="background-color: #2b2b2b; padding: 18px;"><input type ="submit" value="가입하기" style="border: none; background-color:transparent; color:#FFFFFF"/></div>
+                
+              </div>
+            </div>
+            
+          </form>
+
+          <form id="signup_form_02" method="POST" action="signup_corp.php">
+            <div class="row display_none">
+              <div class="col-12 margin_top_l">분야</div>
+
+              <div class="col-6 input-group margin_top_s">
+                <select class="select_box custom-select" name="u_type">
+                  <option selected>분야</option>
+                  <option value="1">인테리어</option>
+                  <option value="2">마케팅</option>
+                  <option value="3">홈페이지</option>
+                  <option value="4">자금대출</option>
+                  <option value="5">의료장비</option>
+                  <option value="6">의료소모품, 세무사 및 기타</option>
+                </select>
+              </div>
+
+              <div class="col-12 margin_top_l">업체명</div>
+              <div class="col-12 margin_top_s">
+                <input type="text" name="u_name" placeholder="업체명을 입력하세요." required=""/>
+              </div>
+
+              <div class="col-12 margin_top_l">이메일</div>
+              <div class="col-12 margin_top_s">
+                <input type="email" name="u_email" placeholder="이메일 주소를 입력해주세요." required="" />
+              </div>
+
+              <div class="col-12 margin_top_l">비밀번호</div>
+              <div class="col-12 margin_top_s">
+                <input type="password" name="u_pw" placeholder="비밀번호" required=""/>
+              </div>
+              <div class="col-12 margin_top_s">
+                <input type="password" name="u_pwc" placeholder="비밀번호 확인" required=""/>
+              </div>
+
+              <div class="col-12 margin_top_l">연락처</div>
+              <div class="col-12 margin_top_s">
+                <input type="number" name="u_phone" placeholder="업체 연락처를 입력해주세요." required=""/>
+              </div>
+
+              <div class="col-12 margin_top_l">주소</div>
+              <div class="col-4 margin_top_s" style="position: relative;">
+                <input id="post_area" type="text" name="u_post" placeholder="우편번호 검색" onclick="openPost()" required=""/>
+                <div id="search_post_box" class="display_none">
+                  <div class="text_align_right padding_m cursor_pointer" onclick="closePost()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+                  </div>
+                  <div id="search_post"></div>
+                </div>
+              </div>
+              <div class="col-8 margin_top_s">
+                <input id="address_area" type="text" name="u_address" placeholder="주소" required="" />
+              </div>
+              <div class="col-12 margin_top_s">
+                <input type="text" name="u_det" placeholder="상세주소" required=""/>
+              </div>
+
+              <div class="col-12 margin_top_l">서비스 가능지역</div>
+              <div class="col-12 margin_top_s">
+                <input type="text" name="u_able" placeholder="서비스 가능한 지역을 입력해주세요." required=""/>
+              </div>
+               <div class="col-12" style="margin-top: 40px;padding: 0">
+                  <div class="button" style="background-color: #2b2b2b; padding: 18px;"><input type ="submit" value="가입하기" style="border: none; background-color:transparent; color:#FFFFFF"/></div>
+               </div>
+            </div>
+           
+          </form>
+
+          
+
+          <div class="col-12" style="margin-top: 40px;padding: 0">
+            계속 진행함으로써 본인은 스타트닥터 또는 스타트닥터 직원이 마케팅 목적 등을
+            이유로 본인이 제공한 이메일 주소나 전화번호로 이메일, 전화, SMS(자동 전화 접속
+            시스템 포함) 등의 방법을 통해 본인에게 연락할 수 있다는 데 동의합니다.
+            스타트닥터 <span class="underline"><a href="../member/privacy.html" style="color:#2B2B2B">개인정보 취급방침</a></span>과 <span class="underline"><a href="../member/terms.html" style="color:#2B2B2B">서비스 이용약관</a></span>에 관련된 내용을 모두 읽고 이해했습니다.
+          </div>
+
+          <div class="line" style="margin: 40px 0;width: 100%;"></div>
+
+          <div class="col-12 font_weight_b text_align_center" style="padding: 0">
+            이미 스타트닥터 계정이 있으신가요? <span class="cursor_pointer color_b"><a href="signin.html">로그인</a></span>
+          </div>
+        </div>
+      </article>
+    </section>
+    <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../script/common.js"></script>
+    <script src="../script/member.js"></script>
+  </body>
+</html>

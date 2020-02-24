@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.popup {
+    position: relative;
+    width: auto;
+    max-width: 500px;
+    height: 622px;
+    background-color: #c5ddff;
+}
+
+.title {
+    position: absolute;
+    width: 265px;
+    height: 41px;
+    top: 68.2px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: AppleSDGothicNeo;
+    font-size: 29px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #232323;
+}
+
+.sub_text {
+    position: absolute;
+    width: 231px;
+    height: 29px;
+    top: 126.1px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: AppleSDGothicNeo;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3f3f;
+}
+
+.popup>img {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 72%;
+    height: auto;
+}
+
+.go_system {
+    position: absolute;
+    top: 519.3px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 253.3px;
+    height: 57.5px;
+    line-height: 57.5px;
+    background-color: #4577f4;
+    color: #fff;
+    border-radius: 50px;
+    font-family: AppleSDGothicNeo;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    z-index: 10;
+}
+
+a {
+    display: block;
+}
+
+.go_system > a {
+    color: #fff;
+}
+
+.link a {
+    color: #000;
+}
+
+.shadow {
+    position: absolute;
+    top: 523.8px;
+    left: 50.5%;
+    transform: translateX(-50%);
+    width: 253.3px;
+    height: 57.5px;
+    background-color: gray;
+    border-radius: 50px;
+    opacity: 0.25;
+    z-index: 5;
+}
+
+.link {
+    position: relative;
+    width: auto;
+    max-width: 500px;
+    height: 86.6px;
+    background-color: #ffffff;
+}
+
+.link>div {
+    width: 44.4%;
+    height: 48px;
+    line-height: 48px;
+    float: left;
+    border: solid 2px #666;
+    font-family: AppleSDGothicNeo;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #565656;
+    cursor: pointer;
+}
+
+.home_page {
+    position: absolute;
+    top: 20px;
+    left: 4%;
+}
+
+.open_system {
+    position: absolute;
+    top: 20px;
+    right: 4%;
+}
+
+.close {
+    position: relative;
+    width: auto;
+    max-width: 500px;
+    height: 48px;
+    background-color: #2b2b2b;
+    color: #fff;
+}
+
+.check_box {
+    position: absolute;
+    top: 16.4px;
+    left: 19px;
+    width: 16.6px;
+    height: 16.6px;
+    border: solid 2px #fff;
+    border-radius: 3px;
+}
+
+.never {
+    position: absolute;
+    top: 14.7px;
+    left: 46.8px;
+    font-family: AppleSDGothicNeo;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.close_btn {
+    position: absolute;
+    top: 14.2px;
+    right: 18.2px;
+    font-family: AppleSDGothicNeo;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    cursor: pointer;
+}

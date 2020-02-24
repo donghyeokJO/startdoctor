@@ -1,0 +1,528 @@
+body {
+    background-color: #f4f4f6;
+}
+
+.main_img {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.main_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.main_text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: NotoSans;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.tutorial {
+    position: relative;
+    width: 52%;
+    margin: 0 auto;
+}
+
+.route {
+    position: absolute;
+    left: 1%;
+    top: 40px;
+}
+
+.text_bg {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 260px;
+    height: 25px;
+    background-color: #a2c6ff;
+}
+
+.tutorial_text {
+    position: absolute;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: NotoSansCJKkr;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.sub_text {
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 600px;
+    font-family: NotoSansCJKkr;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.step_1 {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 250px;
+    width: 1003px;
+    height: 527px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.step_2 {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1003px;
+    height: 577px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.step_3 {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 1003px;
+    height: 527px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.step_box {
+    position: absolute;
+    width: 77px;
+    height: 22px;
+    background-color: #a2c6ff;
+    text-align: center;
+    font-weight: bold;
+    top: 20px;
+    left: 20px;
+}
+
+.tip_box {
+    position: absolute;
+    width: 77px;
+    height: 22px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    top: 15px;
+    left: 20px;
+}
+
+.guide {
+    position: absolute;
+    top: 18px;
+    margin-left: 110px;
+    height: 27px;
+    font-family: NotoSansCJKkr;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.step2_guide {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    height: 27px;
+    font-family: NotoSansCJKkr;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.guide>strong {
+    font-weight: bold;
+    color: #2f7cf7;
+}
+
+.step_area>img {
+    position: absolute;
+    left: 50%;
+    top: 280px;
+    transform: translate(-50%, -50%);
+}
+
+.tip_area>img {
+    position: absolute;
+    left: 50%;
+    top: 280px;
+    transform: translate(-50%, -50%);
+}
+
+.tip_area {
+    position: relative;
+    margin: 0 auto;
+    width: 1003px;
+    height: 527px;
+}
+
+.tip_end {
+    height: 577px;
+}
+
+.text_line {
+    float: left;
+    text-decoration: underline;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.end_text {
+    position: absolute;
+    margin: 0 auto;
+    bottom: 30px;
+    left: 20px;
+    height: 27px;
+    font-family: NotoSansCJKkr;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.go_system {
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 330px;
+    height: 53px;
+    line-height: 53px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 27px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #2f7cf7;
+}
+
+.go_system > a {
+    display: block;
+    color: #fff;
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: #f4f4f6;
+    }
+    
+    .main_img {
+        position: relative;
+        height: 92px;
+        background-repeat: no-repeat;
+    }
+
+    .main_img img {
+        width: 100%;
+        height: 92px;
+    }
+    
+    .main_text {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%);
+        width: 280px;
+        height: 43px;
+        font-family: NotoSans;
+        font-size: 22px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    .tutorial {
+        position: relative;
+        width: 375px;
+        margin: 0 auto;
+    }
+    
+    .route {
+        position: absolute;
+        left: 15px;
+        top: 20px;
+    }
+    
+    .text_bg {
+        position: absolute;
+        top: 80px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 260px;
+        height: 25px;
+        background-color: #a2c6ff;
+    }
+    
+    .tutorial_text {
+        position: absolute;
+        top: 70px;
+        left: 50%;
+        transform: translate(-50%);
+        width: 240px;
+        height: 36px;
+        font-family: NotoSansCJKkr;
+        font-size: 23px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2b2b2b;
+    }
+    
+    .sub_text {
+        position: absolute;
+        top: 130px;
+        left: 50%;
+        transform: translate(-50%);
+        
+        font-family: NotoSansCJKkr;
+        font-size: 0;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2b2b2b;
+    }
+
+    .sub_text:after {
+        font-size: 12px;
+        display: block;
+        content: "간단한 정보 몇가지만 선택하면, \A 희망하는 개원지역 상권의 각종 데이터를 열람할 수 있습니다. \A 다음 안내되는 순서에 따라서 상권분석시스템을 이용해보세요.";
+        white-space: pre;
+    }
+    
+    .step_1 {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 230px;
+        width: 364px;
+        height: 199px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+    }
+    
+    .step_2 {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 364px;
+        height: 241px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+    }
+    
+    .step_3 {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 364px;
+        height: 199px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+    }
+    
+    .step_box {
+        position: absolute;
+        width: 52px;
+        height: 18px;
+        background-color: #a2c6ff;
+        text-align: center;
+        font-weight: bold;
+        top: 6px;
+        left: 6px;
+    }
+    
+    .tip_box {
+        position: absolute;
+        width: 49px;
+        height: 20px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: bold;
+        top: 4px;
+        left: 4px;
+    }
+    
+    .guide {
+        position: absolute;
+        top: 4px;
+        left: -45px;
+        font-family: NotoSansCJKkr;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+
+    .tip_area .guide {
+        margin-left: 0;
+    }
+    
+    .tip_area > .guide {
+        position: absolute;
+        left: 6px;
+        top: 25px;
+        height: 20px;
+        font-family: NotoSansCJKkr;
+        font-size: 11px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    
+    .step2_guide {
+        position: absolute;
+        bottom: 2px;
+        left: 10px;
+        height: 39px;
+        font-family: NotoSansCJKkr;
+        font-size: 11px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    
+    .guide>strong {
+        font-weight: bold;
+        color: #2f7cf7;
+    }
+    
+    .step_area>img {
+        position: absolute;
+        width: 350px;
+        height: 162px;
+        left: 50%;
+        top: 110px;
+        transform: translate(-50%, -50%);
+    }
+    
+    .tip_area>img {
+        position: absolute;
+        width: 350px;
+        height: 162px;
+        left: 50%;
+        top: 125px;
+        transform: translate(-50%, -50%);
+    }
+
+    .tip_end > img {
+        top: 140px;
+    }
+    
+    .tip_area {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 364px;
+        height: 219px;
+    }
+    
+    .tip_area_big {
+        height: 240px;
+    }
+    
+    .tip_end {
+        height: 280px;
+    }
+    
+    .text_line {
+        float: left;
+        text-decoration: underline;
+        margin-right: 5px;
+        font-weight: bold;
+    }
+    
+    .end_text {
+        position: absolute;
+        margin: 0 auto;
+        bottom: 30px;
+        left: 10px;
+        height: 18px;
+        font-family: NotoSansCJKkr;
+        font-size: 11px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    
+    .go_system {
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 110px;
+        width: 330px;
+        height: 53px;
+        line-height: 53px;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 27px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #2f7cf7;
+    }
+    
+    .go_system > a {
+        display: block;
+        color: #fff;
+    }
+}

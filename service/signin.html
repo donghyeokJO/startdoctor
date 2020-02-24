@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150475018-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-150475018-1');
+    </script>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+      (function(w, d, a){
+        w.__beusablerumclient__ = {
+          load : function(src){
+            var b = d.createElement("script");
+            b.src = src; b.async=true; b.type = "text/javascript";
+            d.getElementsByTagName("head")[0].appendChild(b);
+          }
+        };w.__beusablerumclient__.load(a);
+      })(window, document, '//rum.beusable.net/script/b190305e183506u693/504b7eefd4');
+      </script>
+    <title>스타트닥터</title>
+    
+    <meta name="author" content="스타트닥터">
+    <meta name="description" content="스타트닥터">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:image" content="../assets/ogimage.png">
+    <meta property="og:description" content="스타트닥터">
+    <meta property="og:title" content="스타트닥터">
+    <meta name="twitter:title" content="스타트닥터">
+
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/member.css">
+
+  </head>
+  <body>
+    
+    <section class="back_g_l">
+      <article id="member_area" class="col-12 col-md-6">
+        <div class="font_size_xl text_align_center font_weight_b">스타트닥터 로그인</div>
+
+        <div class="container member_input_area padding_l box_shadow back_w margin_top_l">
+          <form id="signup_form_01" method = "POST" action = "signin.php">
+            <div class="row">
+              <div class="col-12 margin_top_l">이메일</div>
+              <div class="col-12 margin_top_s">
+                <input type="email" name="u_email" placeholder="이메일 주소를 입력해주세요." />
+              </div>
+              <div class="col-12 margin_top_l">비밀번호</div>
+              <div class="col-12 margin_top_s">
+                <input type="password" name="u_pw" placeholder="비밀번호" />
+              </div>
+              <div class="col-5 margin_top_l" style="padding-right: 0;">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                  <label class="custom-control-label font_size_m" for="defaultUnchecked">로그인 상태 유지</label>
+                </div>
+              </div>
+              <div class="col-7 margin_top_l text_align_right font_size_m">
+                <span>아이디 찾기</span>
+                <span class="margin_left_s margin_right_s">|</span>
+                <span>비밀번호 찾기</span>
+              </div>
+              <div class="col-12" style="margin-top: 40px;padding: 0">
+                <div class="button" style="background-color: #2b2b2b; padding: 18px; "><input type ="submit" value="로그인" style="border: none; background-color:transparent; color:#FFFFFF; width: 100%; height: 38px; line-height: 38px; text-align: center;"/></div>
+              </div>
+              <div class="line col-12 margin_v_l"></div>
+
+              <div class="col-12 text_align_center font_size_l">계정이 없으신가요? <span class="color_b"><a href="#" onclick="window.open('signup.html')">계정 만들기</a></span></div>
+            </div>
+          </form>
+        </div>
+
+      </article>
+    </section>
+
+    <script src="https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../script/common.js"></script>
+    <script src="../script/member.js"></script>
+  </body>
+</html>

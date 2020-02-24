@@ -1,0 +1,12 @@
+User-agent: *
+Diallow: /admin
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Daumoa
+Allow: /
+

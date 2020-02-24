@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150475018-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-150475018-1');
+  </script>
+  <script type="text/javascript">
+    (function(w, d, a){
+      w.__beusablerumclient__ = {
+        load : function(src){
+          var b = d.createElement("script");
+          b.src = src; b.async=true; b.type = "text/javascript";
+          d.getElementsByTagName("head")[0].appendChild(b);
+        }
+      };w.__beusablerumclient__.load(a);
+    })(window, document, '//rum.beusable.net/script/b190305e183506u693/504b7eefd4');
+    </script>
+    <meta charset="utf-8">
+    <title>스타트닥터</title>
+    
+    <meta name="author" content="스타트닥터">
+    <meta name="description" content="스타트닥터">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:image" content="../assets/ogimage.png">
+    <meta property="og:description" content="스타트닥터">
+    <meta property="og:title" content="스타트닥터">
+    <meta name="twitter:title" content="스타트닥터">
+
+    <link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../lib/owlCarousel2/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../lib/owlCarousel2/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/member.css">
+
+  </head>
+  <body>
+    <header id="header">
+      <div>
+        <div class="menu" onClick="hoverNavigation()">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+        </div>
+        <div class="logo font_size_xl font_weight_b">
+          마이페이지
+        </div>
+        <div class="member tablet cursor_pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" class="fill_w" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.63-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.64 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2zm-2 1H8v-6c0-2.48 1.51-4.5 4-4.5s4 2.02 4 4.5v6z"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="fill_w margin_left_s" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+          <div class="display_inline_block margin_left_s" onclick="hoverMemberDesc()">
+            <div class="display_inline_block">임보혁 님</div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="fill_w" width="24" height="24" viewBox="0 0 24 24"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/><path fill="none" d="M0 0h24v24H0V0z"/></svg>
+          </div>
+        </div>
+        <div class="member mobile cursor_pointer" onclick="hoverMemberDesc()">
+          <svg xmlns="http://www.w3.org/2000/svg" class="fill_w" style="width: 30px;" viewBox="0 0 24 24"><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1S9.9 9.16 9.9 8s.94-2.1 2.1-2.1m0 9c2.97 0 6.1 1.46 6.1 2.1v1.1H5.9V17c0-.64 3.13-2.1 6.1-2.1M12 4C9.79 4 8 5.79 8 8s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4zm0 9c-2.67 0-8 1.34-8 4v3h16v-3c0-2.66-5.33-4-8-4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+        <div id="member_desc" class="display_none"> 
+          <div class="container">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-6"><div class="tag3">Basic</div></div>
+              <div class="col-3 text_align_right" onclick="hoverMemberDesc()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg>
+              </div>
+              <div class="col-12 font_size_xxl">엄보혁님</div>
+              <div class="col-12 margin_top_l">
+                나의 개원진행률
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"/><path fill="none" d="M0 0h24v24H0V0z"/></svg>
+              </div>
+              <div class="col-12 margin_top_s">
+                <div class="percentage margin_top_ss">
+                  <div>
+                    <div style="width: 90%">
+                      <div>90%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-6 button9">마이페이지</div>
+              <div class="col-6 button9">로그아웃</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <nav id="nav_wide_02" class="text_align_center">
+      <div class="row justify-content-center" style="width: 100%;">
+        <div class="col-12 col-sm-7">
+          <div class="row cursor_pointer justify-content-center">
+            <div class="col padding_v_s">홈</div>
+            <div class="col padding_v_s selected">회원정보</div>
+            <div class="col padding_v_s">개원노트</div>
+            <div class="col padding_v_s">서비스</div>
+            <div class="col padding_v_s">결제정보</div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <nav id="nav_small">
+      <div>
+        <div class="title">STARTDOCTOR</div>
+        <div class="progress_bar">
+          <div class="category">개원진행률</div>
+          <div class="link">진행률 확인하러가기 ></div>
+          <div class="percentage margin_top_ss">
+            <div>
+              <div style="width: 90%">
+                <div>90%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="member">
+          <div>
+            <div class="image"></div>
+            <div>마이페이지</div>
+          </div>
+          <div>
+            <div class="image"></div>
+            <div>개원상권분석</div>
+          </div>
+          <div>
+            <div class="image"></div>
+            <div>업체상담채팅</div>
+          </div>
+        </div>
+        <hr class="line" />
+        <div class="category_area">
+          <div class="category">스타트닥터</div>
+          <div class="category">개원상권분석시스템</div>
+          <div class="category">상담채팅</div>
+          <div class="category">비교견적</div>
+          <div class="category">개원세미나</div>
+          <div class="category">SNS</div>
+        </div>
+        <hr class="line" />
+        <div class="margin_top_m">
+          <div class="link">공지사항</div>
+          <div class="link">FAQ</div>
+        </div>
+        <div class="close" onclick="hoverNavigation()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        </div>
+      </div>
+    </nav>
+
+    <section class="back_g_l">
+      <article class="padding_m">
+        <div class="font_size_xl font_weight_b padding_v_l">서비스</div>
+        <div>
+          <div class="row">
+            
+            <div class="col-12 col-sm-4 margin_top_m">
+              <div class="image" style="background-image: url(../assets/service_01.png);height: 335px;">
+                <div class="color_w font_size_ll" style="background-color: rgba(0,0,0,0.5); height: 100%;">
+                  <div class="container" style="height: 100%">
+                    <div class="row text_align_center align-items-center" style="height: 100%">
+                      <div class="col">개원상권분석</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 margin_top_m">
+              <div class="image" style="background-image: url(../assets/service_02.png);height: 335px;">
+                <div class="color_w font_size_ll" style="background-color: rgba(0,0,0,0.5); height: 100%;">
+                  <div class="container" style="height: 100%">
+                    <div class="row text_align_center align-items-center" style="height: 100%">
+                      <div class="col">상담채팅</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 margin_top_m">
+              <div class="image" style="background-image: url(../assets/service_03.png);height: 335px;">
+                <div class="color_w font_size_ll" style="background-color: rgba(0,0,0,0.5); height: 100%;">
+                  <div class="container" style="height: 100%">
+                    <div class="row text_align_center align-items-center" style="height: 100%">
+                      <div class="col">비교견적</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>

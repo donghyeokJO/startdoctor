@@ -1,0 +1,20 @@
+{
+  "area_1": [
+    { "id": "seoul", "name": "서울시" },
+    { "id": "gyungy", "name": "경기도" }
+  ],
+  "area_2": {
+    "next_step": "구",
+    "list": [
+      { "id": "dongjak", "name": "동작구" },
+      { "id": "gangnam", "name": "강남구" }
+    ]
+  },
+  "area_3": {
+    "next_step": "동",
+    "list": [
+      { "id": "sandang", "name": "상도동", "lat": 37.5666103, "lng": 126.9783882 },
+      { "id": "daebang", "name": "대방동", "lat": 37.5666000, "lng": 126.9783882 }
+    ]
+  }
+}

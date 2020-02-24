@@ -1,0 +1,926 @@
+#fifth_section {
+    padding: 0;
+}
+
+.system_title {
+    position: absolute;
+    top: 85px;
+    left: 22px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.system_main>div {
+    position: absolute;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.system_title_bar {
+    position: absolute;
+    top: 115px;
+    left: 22px;
+    width: 152px;
+    height: 3px;
+    background-color: #a8a8a8;
+}
+
+.startdoctor {
+    position: absolute;
+    width: 400px;
+    top: 171px;
+    left: 603px;
+    border: solid 2px #2f7cf7;
+}
+
+.fw_b {
+    font-weight: bold;
+}
+
+.system_main_content {
+    height: 43px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    font-family: NotoSans;
+    font-size: 13px !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+    padding-left: 23px;
+}
+
+.system_main_title {
+    height: 39px !important;
+    background-color: #434343 !important;
+    font-family: 'Noto Sans', sans-serif !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    font-stretch: normal !important;
+    font-style: normal !important;
+    line-height: 39px !important;
+    letter-spacing: normal !important;
+    text-align: center !important;
+    color: #ffffff !important;
+}
+
+.bg_b {
+    background-color: #2f7cf7 !important;
+    height: 37px !important;
+    line-height: 37px !important;
+    margin-bottom: 4px;
+}
+
+.bg_g {
+    background-color: #c9c9c9;
+    text-align: center !important;
+    padding: 0 !important;
+}
+
+.startdoctor>.system_main_content {
+    margin: 2px 0;
+}
+
+.service_title_ment {
+    position: absolute;
+    top: 693px;
+    left: 220px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+    z-index: 100;
+}
+
+.service_title_ment_bar1 {
+    position: absolute;
+    top: 710px;
+    left: 330px;
+    width: 344px;
+    height: 20px;
+    background-color: rgba(47, 124, 247, 0.5);
+}
+
+.service_title_ment_bar2 {
+    position: absolute;
+    top: 750px;
+    left: 207px;
+    width: 590px;
+    height: 20px;
+    background-color: rgba(47, 124, 247, 0.5);
+}
+
+.system_service {
+    position: absolute;
+    width: 310px;
+    height: 329px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.service_bar {
+    position: absolute;
+    top: 0;
+    width: 310px;
+    height: 7px;
+}
+
+.service_title {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.service_sub_title {
+    position: absolute;
+    top: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a8a8a8;
+}
+
+.service_content {
+    margin-left: 28px;
+    margin-top: 24px;
+}
+
+.service_content>div {
+    line-height: 28px;
+}
+
+.fas.fa-dot-circle {
+    margin-right: 9.4px;
+}
+
+.plus {
+    position: absolute;
+    top: 219px;
+    left: 26px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2f7cf7;
+}
+
+.service_btn {
+    position: absolute;
+    top: 264px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 288px;
+    height: 41px;
+    border-radius: 23px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #2b2b2b;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 41px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.service_btn:hover {
+    text-decoration: underline;
+}
+
+.service_pay {
+    position: absolute;
+    top: 1282px;
+    left: 23px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.service_pay_bar {
+    position: absolute;
+    top: 1313px;
+    left: 22px;
+    width: 159px;
+    height: 4px;
+    background-color: #a8a8a8;
+}
+
+.service_pay_sub {
+    position: absolute;
+    top: 1336px;
+    left: 22px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.ticket_title_ment {
+    position: absolute;
+    top: 1419px;
+    left: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.ticket {
+    position: absolute;
+    width: 310px;
+    height: 98px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.t1 {
+    top: 1456px;
+    left: 22px;
+}
+
+.t2 {
+    top: 1456px;
+    left: 357px;
+}
+
+.t3 {
+    top: 1456px;
+    left: 692px;
+}
+
+.pro {
+    top: 1644px;
+    left: 22px;
+}
+
+.ticket_title {
+    position: absolute;
+    top: 12px;
+    left: 11px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.ticket_price {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #f7a22f;
+}
+
+.ticket_btn {
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 288px;
+    height: 32px;
+    border-radius: 16px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #2b2b2b;
+    cursor: pointer;
+}
+
+.ticket_pro_ment {
+    position: absolute;
+    top: 1607px;
+    left: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b2b2b;
+}
+
+.ticket_sub_title {
+    position: absolute;
+    top: 17px;
+    left: 94px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #727272;
+}
+
+#article_09 {
+    width: 1024px;
+    height: 1787px;
+}
+
+@media (max-width: 800px) {
+    #article_09 {
+        width: 100%;
+        height: 2673px;
+        margin: 0 auto;
+    }
+    .system_title {
+        position: absolute;
+        top: 64px;
+        left: 11px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 21px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    .system_main>div {
+        position: absolute;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 11px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.64;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    .system_title_bar {
+        position: absolute;
+        top: 94px;
+        left: 11px;
+        width: 137px;
+        height: 3px;
+        background-color: #a8a8a8;
+    }
+    .startdoctor {
+        position: absolute;
+        top: 114px;
+        left: 197px;
+        width: 37.67vw;
+        border: none;
+    }
+    .fw_b {
+        font-weight: bold;
+    }
+    .m_1 {
+        width: 53px !important;
+        height: 54px !important;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 11px !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 20px !important;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2b2b2b;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .m_1:nth-child(2) {
+        height: 42px !important;
+        top: 114px !important;
+        left: 10px !important;
+        font-size: 11px !important;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+    .m_1:nth-child(4) {
+        top: 158px !important;
+        left: 10px !important;
+    }
+    .m_1:nth-child(6) {
+        top: 213px !important;
+        left: 10px !important;
+        padding: 0 6px !important;
+    }
+    .m_1:nth-child(8) {
+        top: 269px !important;
+        left: 10px !important;
+    }
+    .m_1:nth-child(10) {
+        top: 325px !important;
+        left: 10px !important;
+    }
+    .m_1:nth-child(12) {
+        top: 381px !important;
+        left: 10px !important;
+    }
+    .m_1:nth-child(14) {
+        top: 437px !important;
+        left: 10px !important;
+    }
+    .m_1:nth-child(16) {
+        top: 493px !important;
+        left: 10px !important;
+    }
+    .m_1:nth-child(18) {
+        top: 549px !important;
+        left: 10px !important;
+    }
+    .m_2 {
+        width: 37.67vw !important;
+        height: 54px !important;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 10px !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 20px !important;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2b2b2b;
+        display: flex;
+        align-items: center;
+    }
+    .m_2:nth-child(3) {
+        height: 42px !important;
+        top: 114px !important;
+        left: 64px !important;
+        font-size: 0 !important;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 15px !important;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        justify-content: center;
+        padding: 0 20px !important;
+    }
+    .m_2:nth-child(3)::after {
+        font-size: 11px;
+        content: "소상공인상권분석 등\A기존 분석시스템";
+        white-space: pre;
+    }
+    .m_2:nth-child(5) {
+        top: 158px !important;
+        left: 64px !important;
+    }
+    .m_2:nth-child(7) {
+        top: 213px !important;
+        left: 64px !important;
+    }
+    .m_2:nth-child(9) {
+        top: 269px !important;
+        left: 64px !important;
+    }
+    .m_2:nth-child(11) {
+        top: 325px !important;
+        left: 64px !important;
+    }
+    .m_2:nth-child(13) {
+        top: 381px !important;
+        left: 64px !important;
+    }
+    .m_2:nth-child(15) {
+        top: 437px !important;
+        left: 64px !important;
+    }
+    .m_2:nth-child(17) {
+        top: 493px !important;
+        left: 64px !important;
+    }
+    .m_2:nth-child(19) {
+        top: 549px !important;
+        left: 64px !important;
+    }
+    .system_main_content {
+        height: 54px;
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 10px !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.64;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+        padding-left: 2px !important;
+        display: flex;
+        align-items: center;
+    }
+    .system_main_title {
+        height: 39px !important;
+        background-color: #434343 !important;
+        font-family: 'Noto Sans', sans-serif !important;
+        font-size: 18px !important;
+        font-weight: bold !important;
+        font-stretch: normal !important;
+        font-style: normal !important;
+        line-height: 39px !important;
+        letter-spacing: normal !important;
+        text-align: center !important;
+        color: #ffffff !important;
+    }
+    .bg_b {
+        font-size: 11px !important;
+        background-color: #2f7cf7 !important;
+        height: 42px !important;
+        line-height: 37px !important;
+        margin-bottom: -1px;
+    }
+    .bg_g {
+        background-color: #c9c9c9;
+        text-align: center !important;
+        padding: 0 !important;
+    }
+    .startdoctor>.system_main_content {
+        margin: 2px 0;
+    }
+    .service_title_ment {
+        position: absolute;
+        top: 704px;
+        left: 14px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 17.82px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2b2b2b;
+        z-index: 100;
+    }
+    .service_title_ment_bar1 {
+        position: absolute;
+        top: 715px;
+        left: 87px;
+        width: 201px;
+        height: 14px;
+        background-color: rgba(47, 124, 247, 0.5);
+    }
+    .service_title_ment_bar2 {
+        position: absolute;
+        top: 741px;
+        left: 4vw;
+        width: 92vw;
+        height: 14px;
+        background-color: rgba(47, 124, 247, 0.5);
+    }
+    .system_service {
+        position: absolute;
+        width: 310px;
+        height: 329px;
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+    }
+    .system_service:nth-child(7) {
+        top: 795px !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    .system_service:nth-child(8) {
+        top: 1141px !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    .system_service:nth-child(9) {
+        top: 1495px !important;
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    .service_bar {
+        position: absolute;
+        top: 0;
+        width: 310px;
+        height: 7px;
+    }
+    .service_title {
+        margin-top: 25px;
+        margin-left: 25px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    .service_sub_title {
+        position: absolute;
+        top: 30px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #a8a8a8;
+    }
+    .service_content {
+        margin-left: 28px;
+        margin-top: 24px;
+    }
+    .service_content>div {
+        line-height: 28px;
+    }
+    .fas.fa-dot-circle {
+        margin-right: 9.4px;
+    }
+    .plus {
+        position: absolute;
+        top: 219px;
+        left: 26px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2f7cf7;
+    }
+    .service_btn {
+        position: absolute;
+        top: 264px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 288px;
+        height: 41px;
+        border-radius: 23px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #2b2b2b;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 41px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    .service_btn:hover {
+        text-decoration: underline;
+    }
+    .service_pay {
+        position: absolute;
+        top: 1931px;
+        left: 33px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 21px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    .service_pay_bar {
+        position: absolute;
+        top: 1964px;
+        left: 32px;
+        width: 144px;
+        height: 4px;
+        background-color: #a8a8a8;
+    }
+    .service_pay_sub {
+        position: absolute;
+        top: 1977px;
+        left: 32px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 0 !important;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    .service_pay_sub::after {
+        font-size: 11.3px;
+        content: "해당 이용권은 구매일로 부터 한 달 이내로 사용이 가능합니다.\A한 달이 경과된 후에는 미사용한 이용권의 기간이 만료되오니\A유의하시길 바랍니다.";
+        white-space: pre;
+    }
+    .ticket_title_ment {
+        position: absolute;
+        top: 2063px;
+        left: 36px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    .ticket {
+        position: absolute;
+        left: 33px;
+        width: 310px;
+        height: 98px;
+        box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+    }
+    .t1 {
+        top: 2100px;
+    }
+    .t2 {
+        top: 2211px;
+    }
+    .t3 {
+        top: 2322px;
+    }
+    .pro {
+        top: 2515px;
+    }
+    .ticket_title {
+        position: absolute;
+        top: 12px;
+        left: 11px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    .ticket_price {
+        position: absolute;
+        top: 16px;
+        right: 18px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: right;
+        color: #f7a22f;
+    }
+    .ticket_btn {
+        position: absolute;
+        top: 55px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 288px;
+        height: 32px;
+        border-radius: 16px;
+        border: solid 1px #707070;
+        background-color: #ffffff;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 32px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2b2b2b;
+        cursor: pointer;
+    }
+    .ticket_pro_ment {
+        position: absolute;
+        top: 2478px;
+        left: 36px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2b2b2b;
+    }
+    .ticket_sub_title {
+        position: absolute;
+        top: 17px;
+        left: 100px;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #727272;
+    }
+    .ment1 {
+        font-size: 0 !important;
+    }
+    .ment1::after {
+        content: "진료과별 인기키워드 조회 및 분석 / 챗봇분석조회서비스 제공";
+        font-size: 10px !important;
+    }
+    .ment2 {
+        font-size: 0 !important;
+    }
+    .ment2::after {
+        content: "원클릭 실시간 분석정보\A(빠른 속도)";
+        font-size: 10px !important;
+        white-space: pre;
+    }
+    .system_main_content.m_2:nth-child(5) {
+        font-size: 0 !important;
+    }
+    .system_main_content.m_2:nth-child(5)::after {
+        font-size: 10px !important;
+        content: "병원특화되지않은 통계정보 제공\A(병원 정보는 일부만 제공)";
+        white-space: pre;
+    }
+    .system_main_content.m_2:nth-child(9) {
+        font-size: 0 !important;
+    }
+    .system_main_content.m_2:nth-child(9)::after {
+        font-size: 10px !important;
+        content: "일반 산업군별 매출 정보만 제공\A(병원 선택 불가)";
+        white-space: pre;
+    }
+    .system_main_content.m_2:nth-child(19) {
+        font-size: 0 !important;
+    }
+    .system_main_content.m_2:nth-child(19)::after {
+        font-size: 10px !important;
+        content: "보고서 다운로드 이용가능\A(느린 속도)";
+        white-space: pre;
+    }
+}

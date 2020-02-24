@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google" content="notranslate">
+    <title>팝업</title>
+    <link rel="stylesheet" href="../css/popup.css">
+</head>
+
+<body>
+    <div class="popup">
+        <div class="title">
+            개원상권분석시스템
+        </div>
+        <div class="sub_text">
+            어떻게 사용하는 걸까요?
+        </div>
+        <img src="../assets/banner_img.png" alt="banner">
+        <div class="go_system" >
+        
+            <a href="#" onclick ="exit1()">사용법 보러가기</a>
+       
+        </div>
+        <div class="shadow"></div>
+    </div>
+    <div class="link">
+        <div class="home_page" onclick="exit2()">
+
+            스타트닥터 홈페이지 >
+
+        </div>
+        <div class="open_system" onclick="exit3()">
+
+            개원상권분석시스템 >
+
+        </div>
+    </div>
+    <div class="close">
+        <dib>
+            <form name="fm">
+                <input type="checkbox" class="check_box" id="cb" onchange="XGI_closeMsgBox()" style="cursor: pointer;">
+                <label for="cb" class="never" style="cursor: pointer;">하루동안 보지않기</label>
+            </form>
+        </dib>
+        <div class="close_btn" onclick="window.close()">Ⅹ닫기</div>
+    </div>
+</body>
+
+</html>
+
+
+<script language="Javascript">
+    function setCookie(name, value, expiredays) {
+        var todayDate = new Date();
+        todayDate.setDate(todayDate.getDate() + expiredays);
+        document.cookie = name + "=" + escape(value) + "; path=/; expires=" + todayDate.toGMTString() + ";"
+    }
+
+    function XGI_closeMsgBox() {
+        if (document.fm.cb.checked)
+            setCookie("memo", "no", 1);
+    }
+    function exit1() {
+        window.opener.location.href = "../member/tutorial.html";
+        window.close();
+    }
+    function exit2() {
+        window.close();
+    }
+    function exit3() {
+        window.opener.location.href = "http://analysis-web2-dev.ap-northeast-2.elasticbeanstalk.com/main/";
+        window.close()
+    }
+</script>
